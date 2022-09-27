@@ -28,6 +28,7 @@ header{
 }
 h1{
      margin-left: 10px;
+     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 ul li{
      list-style: none;
@@ -97,6 +98,7 @@ section h2{
      border: 2px dotted maroon;
      box-shadow: 10px 10px gray ;
      border-radius: 10px;
+     text-align: center;
 }
 .cards h2{
      border-right:none;
