@@ -1,9 +1,9 @@
 /* mobile first */
 /* variable declaration */
 :root{
-     --background:rgba(233, 220, 220, 0.894);
+     --background:#f2efe8;
      --text-color:#333;
-     --primary-color:rgb(16, 16, 63);
+     --primary-color:#0f4d92;
      --secondary-color:beige;
 }
 *{
@@ -32,11 +32,30 @@ h1{
 ul li{
      list-style: none;
      padding:10px;
+     margin-right: 5px;
 }
 ul li a{
      text-decoration: none;
      color:var(--secondary-color);
 }
+span{
+     position: relative;
+   }
+
+   span[data-descr]:hover::after {
+     content: attr(data-descr);
+     position: absolute;
+     left: -30px;
+     top: 24px;
+     min-width: 125px;
+     border: 1px var(--primary-color) solid;
+     border-radius: 10px;
+     background-color:var(--primary-color);
+     padding: 10px;
+     color: var(--background);
+     z-index: 1;
+   }
+   
 section{
      display: flex;
      margin: 50px auto;
@@ -46,7 +65,7 @@ section *{
 }
 section h2{
      padding: 10px;
-     border-right: 5px double black;
+     border-right: 5px double var(--primary-color);
 }
 #about-me-content{
      display: flex;
@@ -54,8 +73,20 @@ section h2{
      justify-content: space-between;
      align-items: center;
 }
+#about-me-content p{
+     padding: 25px;
+     border-radius: 10px;
+     border: 2px dashed var(--primary-color);
+}
 #about-me img{
      border-radius: 50%;
+}
+
+#about-me img,
+.cards img{
+     width:250px;
+     height: 250px;
+     padding: 15px;
 }
 .card-container{
      display: flex;
@@ -71,6 +102,8 @@ section h2{
      border-right:none;
      font-size: 25px;
      padding:5px;
+     border: 1px solid var(--primary-color);
+     border-radius: 10px;
 }
 .cards .css{
      color: purple;
@@ -78,21 +111,15 @@ section h2{
 .cards .html{
      color: green;
 }
-.cards img,
-#about-me img{
-     width:250px;
-     height: 250px;
-     padding: 15px;
-}
 .cards img:hover{
      transform: scale(1.25);
 }
 
-
-#contact-me #contact-me-info{
+#contact-me-info{
      display: flex;
-
+     justify-content:space-between;
 }
+
 footer{
      height:50px;
      text-align: center;
