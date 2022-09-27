@@ -22,14 +22,12 @@ header,footer{
 }
 header{
      display: flex;
-     flex-wrap: wrap;
      justify-content: space-around; 
-     align-items: center; 
+     align-items: center;  
      height:175px;
 }
 ul li{
      list-style: none;
-     /* display: block; */
      padding:10px;
 }
 ul li a{
@@ -38,16 +36,47 @@ ul li a{
 }
 section{
      display: flex;
-     flex-wrap: wrap;
 }
 section *{
-     margin:20px;
+     margin:15px;
 }
 section h2{
-     border-bottom: 2px solid black;
+     padding: 10px;
+     border-right: 2px solid black;
 }
-#contact-me div{
+#about-me-content{
      display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+}
+#about-me img{
+     border-radius: 50%;
+}
+.card-container{
+     display: flex;
+     flex-wrap: wrap;
+     /* flex:1 1 100px; */
+}
+.cards h2{
+     border-right:none;
+     font-size: 25px;
+     padding:5px;
+}
+.cards img,
+#about-me img{
+     width:250px;
+     height: 250px;
+     padding: 15px;
+}
+.cards img:hover{
+     transform: scale(1.25);
+}
+
+
+#contact-me #contact-me-info{
+     display: flex;
+
 }
 footer{
      height:50px;
@@ -55,4 +84,17 @@ footer{
 }
 footer p{
      padding:10px;
+}
+@media screen and (min-width:768px){
+     header{
+          justify-content: space-between; 
+          align-items: center; 
+          height:75px;
+     }
+     ul li{
+          display: inline;
+     }
+     #about-me-content{
+          flex-direction: row;
+     }
 }
