@@ -26,6 +26,9 @@ header{
      align-items: center;  
      height:175px;
 }
+h1{
+     margin-left: 10px;
+}
 ul li{
      list-style: none;
      padding:10px;
@@ -36,13 +39,14 @@ ul li a{
 }
 section{
      display: flex;
+     margin: 50px auto;
 }
 section *{
-     margin:15px;
+     margin:10px;
 }
 section h2{
      padding: 10px;
-     border-right: 2px solid black;
+     border-right: 5px double black;
 }
 #about-me-content{
      display: flex;
@@ -58,10 +62,21 @@ section h2{
      flex-wrap: wrap;
      /* flex:1 1 100px; */
 }
+.cards{
+     border: 2px dotted maroon;
+     box-shadow: 10px 10px gray ;
+     border-radius: 10px;
+}
 .cards h2{
      border-right:none;
      font-size: 25px;
      padding:5px;
+}
+.cards .css{
+     color: purple;
+}
+.cards .html{
+     color: green;
 }
 .cards img,
 #about-me img{
