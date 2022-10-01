@@ -107,11 +107,14 @@ section h2{
      border: 1px solid var(--primary-color);
      border-radius: 10px;
 }
+.cards .js{
+     color:blue ;
+}
 .cards .css{
-     color: purple;
+     color: green;
 }
 .cards .html{
-     color: green;
+     color: red;
 }
 .cards img:hover{
      transform: scale(1.25);
