@@ -120,6 +120,12 @@ section h2{
      transform: scale(1.25);
 }
 
+#first-item{
+     width:85vw;
+}
+#first-item img{
+     width:70vw;
+}
 #contact-me-info{
      display: flex;
      justify-content:space-between;
