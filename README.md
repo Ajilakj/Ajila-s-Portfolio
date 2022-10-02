@@ -1,5 +1,8 @@
 # Portfolio
 
+![](./assets/images/projectPrintScreen.png)
+[To visit my portfolio Web Site]( https://ajilakj.github.io/Portfolio/)
+
 ## Installation
 N/A
 
