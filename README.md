@@ -1,7 +1,7 @@
 # Portfolio
 
 ![](./assets/images/projectPrintScreen.png)
-[To visit my portfolio Web Site]( https://ajilakj.github.io/Portfolio/)
+[To visit my portfolio Web Site]( https://ajilakj.github.io/Ajila-Portfolio/)
 
 ## Description
 This is my portfolio website to showcase my works.
