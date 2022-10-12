@@ -122,7 +122,8 @@ section h2{
 }
 
 #first-item{
-     flex-basis:1010px;
+     /* flex-basis:1010px; */
+     width: 85vw;
 }
 #first-item img{
      width:50vw;
