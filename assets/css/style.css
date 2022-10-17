@@ -146,7 +146,7 @@ footer{
 footer p{
      padding:10px;
 }
-@media screen and (min-width:768px){
+@media screen and (min-width:760px){
      header{
           justify-content: space-between; 
           align-items: center; 
