@@ -108,11 +108,14 @@ section h2{
      border: 1px solid var(--primary-color);
      border-radius: 10px;
 }
-.cards .js{
+.cards .api{
      color:blue ;
 }
+.cards .js{
+     color:green ;
+}
 .cards .css{
-     color: green;
+     color: orange;
 }
 .cards .html{
      color: red;
