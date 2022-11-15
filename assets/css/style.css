@@ -1,9 +1,9 @@
 /* mobile first */
 /* variable declaration */
 :root{
-     --background:#f2efe8;
+     --background:#EDF1FF;
      --text-color:#333;
-     --primary-color:#0f4d92;
+     --primary-color:#004B8D;
      --secondary-color:beige;
 }
 *{
@@ -124,14 +124,14 @@ section h2{
      transform: scale(1.25);
 }
 
-#first-item{
+.first-item{
      /* flex-basis:1010px; */
      width: 85vw;
 }
-#first-item img{
+.first-item img{
      width:50vw;
 }
-#first-item img:hover{
+.first-item img:hover{
      transform: scale(1.1);
 }
 #contact-me-info{
