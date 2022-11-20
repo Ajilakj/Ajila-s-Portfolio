@@ -98,6 +98,9 @@ fieldset{
      display: flex;
      flex-wrap: wrap;
 }
+legend{
+     color:var(--primary-color);
+}
 .cards{
      width:325px;
      border: 2px dotted maroon;
