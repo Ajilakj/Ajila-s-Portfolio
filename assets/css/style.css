@@ -94,6 +94,10 @@ section h2{
      flex-wrap: wrap;
      /* flex:1 1 100px; */
 }
+fieldset{
+     display: flex;
+     flex-wrap: wrap;
+}
 .cards{
      width:325px;
      border: 2px dotted maroon;
@@ -108,16 +112,16 @@ section h2{
      border: 1px solid var(--primary-color);
      border-radius: 10px;
 }
-.cards .api{
+.cards .blue{
      color:blue ;
 }
-.cards .js{
+.cards .green{
      color:green ;
 }
-.cards .css{
+.cards .orange{
      color: orange;
 }
-.cards .html{
+.cards .red{
      color: red;
 }
 .cards img:hover{
