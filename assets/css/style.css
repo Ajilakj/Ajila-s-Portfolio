@@ -162,7 +162,6 @@ footer p{
           display: inline;
      }
      #about-me-content{
-          display:flex;
           flex-direction: row;
      }
 }
